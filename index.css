@@ -3,6 +3,7 @@ h2,h3{
     color: black;
 }
 
-.intro{
-    color: gainsboro;
+.head{
+    background-color: gray;
+    color: white;
 }
