@@ -1,9 +1,75 @@
-h2,h3{
-    text-align: center;
-    color: black;
+header {
+  background-color: #2e2e2e;
+  color: white;
 }
 
-.head{
-    background-color: gray;
-    color: white;
+h1 {
+  font-size: 65px !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo {
+  width: 360px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.social{
+    margin-left: 2rem;
+}
+.thumb{
+    width: 60px;
+    padding-left: 0.5%;
+    padding-bottom: 10px;
+}
+
+.github-card {
+  width: 100%;
+  background-color: #f4f4f4;
+  color: black;
+  padding: 5px;
+  margin: 1%;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  transition: 0.3s;
+}
+
+/* .github-card:hover {
+    background-color: #d3d3d3;
+} */
+
+.jaku-container {
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 10%;
+  background-color: #1B1D1C;
+  color: white;
+}
+
+.section {
+  padding: 30px;
+  width: 100%; 
+  height: 20px; 
+  border-bottom: 2px solid white; 
+  text-align: center;
+}
+
+.section-title {
+  font-size: 42px;
+  background-color: #1B1D1C;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 1.5%;
+}
+.content-container{
+    padding-bottom: 6%;
+}
+.horizontal-divide {
+  background-color: white;
+  height: 5px;
+  width: auto;
 }
