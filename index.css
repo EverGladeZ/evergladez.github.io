@@ -110,8 +110,10 @@ h1 {
 .collapsed .improve-card {
   width: 100%;
   margin: 10px;
+  margin-left: 0px;
   transition: 0.3s;
   background-color: #2e2e2e;
+  border: none;
 }
 
 .collapsed .improve-card:hover {
@@ -135,17 +137,17 @@ h1 {
 }
 
 .improve-card {
+  border-bottom: 5px solid white;
   transition: 0.3s;
-  background-color: #c20430;
+  background-color: #222222;
 }
 
 .improve-card h4 {
   color: white;
-  padding-top: 0px;
+  margin-top: 10px;
 }
 
 .improve-card p {
-  color: #ffc72a;
   font-style: italic;
 }
 
