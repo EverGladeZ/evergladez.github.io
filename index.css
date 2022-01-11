@@ -70,11 +70,19 @@ h1 {
   margin: 1%;
   transition: 0.3s;
 }
+.container {
+  padding-top: 1%;
+}
 
-/* .github-card:hover {
-    background-color: #d3d3d3;
-} */
-
+.special {
+  background-color: #2e2e2e;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-left: 5px solid #2e2e2e;
+  border-right: 5px solid #2e2e2e;
+  border-bottom: 5px solid #2e2e2e;
+}
 .jaku-container {
   padding-right: 15%;
   padding-left: 15%;
@@ -101,6 +109,11 @@ h1 {
 .content-container {
   padding-bottom: 6%;
 }
+
+.content-container-type2 {
+  padding-bottom: 4.5%;
+}
+
 .horizontal-divide {
   background-color: white;
   height: 5px;
