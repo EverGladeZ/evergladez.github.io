@@ -12,109 +12,219 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <script src="jquery-3.6.0.min.js"></script>
   </head>
 
   <header>
-      <div class="text-center p-5">
-        <h1>Jakub Wozniak</h1>
-        <h5>Cumulative Portfolio</h5>
-        <img class="portfolio-photo center" src="./img/jakub.jpg" />
-        <img class="logo center" src="./img/sign.png" />
-        <em><b>Honours Computer Science Co-op Student</b></em>
-        <br />
-        <em>University of Guelph, 2019 - 2024</em>
-      </div>
-      <div class="social">  
-        <a href="https://www.linkedin.com/in/jakubdwozniak/">
-            <img class="thumb" src="./img/linkedin.png" alt="linkedin">
-        </a>
-        <a href="https://github.com/EverGladeZ"> 
-            <img class="thumb" src="./img/github.png" alt="github">
-        </a>
-      </div>
+    <div class="text-center p-5">
+      <h1>Jakub Wozniak</h1>
+      <h5>Cumulative Portfolio</h5>
+      <img class="portfolio-photo center" src="./img/jakub.jpg" />
+      <img class="logo center" src="./img/sign.png" />
+      <em><b>Honours Computer Science Co-op Student</b></em>
+      <br />
+      <em>University of Guelph, 2019 - 2024</em>
+    </div>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/jakubdwozniak/">
+        <img class="thumb" src="./img/linkedin.png" alt="linkedin" />
+      </a>
+      <a href="https://github.com/EverGladeZ">
+        <img class="thumb" src="./img/github.png" alt="github" />
+      </a>
+    </div>
   </header>
+
   <body>
-      <div class='horizontal-divide'></div>
+    <div class="horizontal-divide"></div>
+    <div class="jaku-container">
+      <div class="content-container">
+        <div class="section">
+          <span class="section-title"> About Me </span>
+        </div>
       </div>
-      <div class="jaku-container">
-        <div class="content-container">
-          <div class="section">
-            <span class="section-title">
-              About Me
-            </span>
+      <div class="content-container">
+        <div class="section">
+          <span class="section-title"> Projects </span>
         </div>
-            <div class="section">
-                <span class="section-title">
-                  Projects
-                </span>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="github-card">
+            <img
+              class="card-img-top"
+              src="./img/everglade-sq.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Everglade Messaging</h5>
+              <p class="card-text">
+                Everglade Messaging is an online messaging web app which was
+                created and designed as a side project. Both the backend and the
+                frontend of the application were created by two developers. The
+                project utilized technologies such as React.js, Heroku, Flask,
+                and Google Firebase. The application can be found at
+                <a href="https://everglade-messaging.herokuapp.com/"
+                  >https://everglade-messaging.herokuapp.com/</a
+                >
+              </p>
+              <a
+                href="https://github.com/Mark-of-JP/Messaging-Frontend"
+                class="btn btn-dark"
+              >
+                Github Frontend Repo</a
+              >
+              <a
+                href="https://github.com/Mark-of-JP/Messaging-Api"
+                class="btn btn-dark"
+                >Github Backend Repo</a
+              >
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="github-card">
-                    <img class="card-img-top" src="./img/everglade-sq.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Everglade Messaging</h5>
-                      <p class="card-text">Everglade Messaging is an online messaging web app which was created and designed as a side project. Both the backend and the frontend of the application were created by two developers. The project utilized technologies such as React.js, Heroku, Flask, and Google Firebase. The application can be found at <a href="https://everglade-messaging.herokuapp.com/">https://everglade-messaging.herokuapp.com/</a></p>
-                      <a href="https://github.com/Mark-of-JP/Messaging-Frontend" class="btn btn-dark"> Github Frontend Repo</a>
-                      <a href="https://github.com/Mark-of-JP/Messaging-Api" class="btn btn-dark">Github Backend Repo</a>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated Oct 4, 2020.</small>
-                    </div>
-                  </div>
-            </div>
-            <div class="col">
-                <div class="github-card">
-                    <img class="card-img-top" src="./img/datastructures-sq.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Data Structures</h5>
-                      <p class="card-text">This project contains 7 assignments completed for a Data Structures course. All of the data structures were written in C over the course of the semester and the repo contains the following: 
-                        A1: Bit Manipulation, 
-                        A2: Arrays, 
-                        A3: Linked Lists, 
-                        A4: Trees, 
-                        A5: Hash Tables, 
-                        A6: Advanced Hash Tables, 
-                        A7: Graphs (Unbeatable Tic-Tac-Toe Computer)</p>
-                        <a href="https://github.com/EverGladeZ/Data-Structures" class="btn btn-dark">Github Repo</a>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated Jan 19, 2021.</small>
-                    </div>
-                  </div>
-            </div>
-            <div class="col">
-                <div class="github-card">
-                    <img class="card-img-top" src="./img/rogue-sq.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Rogue Game</h5>
-                      <p class="card-text">A Minimalistic Rogue 3.6.X (a role-playing video game characterized by a dungeon crawl through procedurally generated levels, turn-based gameplay and grid-based movement) clone done for an Object-Oriented Programming course. All code was written in Java heavily focusing on the object oriented side of programing.</p>
-                      <a href="https://github.com/EverGladeZ/rogue" class="btn btn-dark">Github Repo</a>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated Jan 19, 2021.</small>
-                    </div>
-                  </div>
+            <div class="card-footer">
+              <small class="text-white">Last updated Oct 4, 2020.</small>
             </div>
           </div>
-          <div class="section">
-            <span class="section-title">
-              Coop Experiences
-            </span>
         </div>
-        <div class="section">
-          <span class="section-title">
-            Contact
-          </span>
+        <div class="col">
+          <div class="github-card">
+            <img
+              class="card-img-top"
+              src="./img/datastructures-sq.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Data Structures</h5>
+              <p class="card-text">
+                This project contains 7 assignments completed for a Data
+                Structures course. All of the data structures were written in C
+                over the course of the semester and the repo contains the
+                following: A1: Bit Manipulation, A2: Arrays, A3: Linked Lists,
+                A4: Trees, A5: Hash Tables, A6: Advanced Hash Tables, A7: Graphs
+                (Unbeatable Tic-Tac-Toe Computer)
+              </p>
+              <a
+                href="https://github.com/EverGladeZ/Data-Structures"
+                class="btn btn-dark"
+                >Github Repo</a
+              >
+            </div>
+            <div class="card-footer">
+              <small class="text-white">Last updated Jan 19, 2021.</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="github-card">
+            <img
+              class="card-img-top"
+              src="./img/rogue-sq.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Rogue Game</h5>
+              <p class="card-text">
+                A Minimalistic Rogue 3.6.X (a role-playing video game
+                characterized by a dungeon crawl through procedurally generated
+                levels, turn-based gameplay and grid-based movement) clone done
+                for an Object-Oriented Programming course. All code was written
+                in Java heavily focusing on the object oriented side of
+                programing.
+              </p>
+              <a href="https://github.com/EverGladeZ/rogue" class="btn btn-dark"
+                >Github Repo</a
+              >
+            </div>
+            <div class="card-footer">
+              <small class="text-white">Last updated Jan 19, 2021.</small>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="content-container">
+        <div class="section">
+          <span class="section-title"> Coop Experiences </span>
         </div>
-        
+      </div>
+      <div id="collapse-cards">
+        <div
+          class="card-wrapper collapsed"
+          id="cardXiris"
+          type="button"
+          data-toggle="collapse"
+          data-parent="#collapse-cards"
+          data-target="#collapseXiris"
+          aria-controls="collapseXiris"
+        >
+          <div class="improve-card">
+            <div class="container">
+              <h4><b>Xiris Automation Inc.</b></h4>
+              <br />
+              <p>Student Software Developer, Summer 2021</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-improve-wrap">
+          <div
+            id="collapseXiris"
+            class="collapse"
+            data-parent="#collapse-cards"
+            aria-labelledby="cardXiris"
+          >
+            <div class="improve-box">
+              <div class="improve-container">
+                <div class="improve-content">
+                  <h1>WT1</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card-wrapper collapsed"
+          id="cardUOG"
+          type="button"
+          data-toggle="collapse"
+          data-parent="#collapse-cards"
+          data-target="#collapseUOG"
+          aria-controls="collapseUOG"
+        >
+          <div class="improve-card">
+            <div class="container">
+              <h4><b>University of Guelph</b></h4>
+              <br />
+              <p>Web Developer, Fall 2021</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-improve-wrap">
+          <div
+            id="collapseUOG"
+            class="collapse"
+            data-parent="#collapse-cards"
+            aria-labelledby="cardUOG"
+          >
+            <div class="improve-box">
+              <div class="improve-container">
+                <div class="improve-content">
+                  <h1>WT2</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="section">
+          <span class="section-title"> Contact </span>
+        </div>
+      </div>
+    </div>
   </body>
-  <div class='horizontal-divide'></div>
+  <div class="horizontal-divide"></div>
   <footer>
     <div class="text-center p-3">
       <p>© 2022 Jakub Wozniak.</p>
     </div>
   </footer>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>

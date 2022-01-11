@@ -64,8 +64,8 @@ h1 {
 
 .github-card {
   width: 100%;
-  background-color: #f4f4f4;
-  color: black;
+  background-color: #2e2e2e;
+  color: white;
   padding: 5px;
   margin: 1%;
   transition: 0.3s;
@@ -106,3 +106,47 @@ h1 {
   height: 5px;
   width: auto;
 }
+
+.collapsed .improve-card {
+  width: 100%;
+  margin: 10px;
+  transition: 0.3s;
+  background-color: #2e2e2e;
+}
+
+.collapsed .improve-card:hover {
+  background-color: #222222;
+}
+
+.collapsed .improve-card h4 {
+  color: white;
+  padding-top: 0px;
+  margin-top: 15px;
+}
+
+.collapsed .improve-card p {
+  color: #999999;
+  font-style: italic;
+}
+
+.improve-card .container {
+  padding-top: 0px;
+  padding: 1px 16px;
+}
+
+.improve-card {
+  transition: 0.3s;
+  background-color: #c20430;
+}
+
+.improve-card h4 {
+  color: white;
+  padding-top: 0px;
+}
+
+.improve-card p {
+  color: #ffc72a;
+  font-style: italic;
+}
+
+
