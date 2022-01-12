@@ -18,6 +18,11 @@ header {
   color: white;
 }
 
+.collapsing {
+  -webkit-transition-duration: 0.5s !important;
+  transition-duration: 0.5s !important;
+}
+
 a.remove {
   color: transparent;
 }
@@ -169,7 +174,7 @@ h1 {
   background: linear-gradient(
     45deg,
     rgba(34, 34, 34, 1) 0%,
-    rgba(34, 34, 34, 1) 65%,
+    rgba(34, 34, 34, 1) 70%,
     rgb(46, 46, 46) 100%
   );
 }
