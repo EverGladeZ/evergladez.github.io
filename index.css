@@ -138,6 +138,9 @@ h1 {
   background: #2e2e2e;
   border: none;
 }
+.collapsed .cool-test {
+  display: none;
+}
 .collapsed .improve-card:hover {
   background: #222222;
 }
@@ -156,6 +159,8 @@ h1 {
   padding: 1px 16px;
 }
 .improve-card {
+  height: 7rem;
+  display: flex;
   border-bottom: 5px solid white;
   transition: 0.5s;
   background: rgb(34, 34, 34);
@@ -163,8 +168,12 @@ h1 {
     45deg,
     rgba(34, 34, 34, 1) 0%,
     rgba(34, 34, 34, 1) 70%,
-    rgb(46, 46, 46) 100%
+    rgb(46, 46, 46, 0) 100%
   );
+}
+  .cool-test {
+    transition: all ease-in 2s;
+    max-height: 7rem;
 }
 .improve-card h4 {
   color: white;
